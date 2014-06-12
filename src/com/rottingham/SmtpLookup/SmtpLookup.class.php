@@ -69,7 +69,7 @@ class SmtpLookup {
 
 		// Merge user supplied config options
 		if ($config) {
-			$this->config = array_merge($this->config, array_unique($config, $this->config));
+			$this->config = array_merge($this->config, $config);
 		}
 	}
 
