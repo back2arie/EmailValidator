@@ -60,9 +60,7 @@ class SmtpLookup {
 				'192.168.0.1'
 			),
 			'validResponseCodes' => array (					// Valid SMTP Response Codes. Any others will be rejected
-				250,										// and the email address lookup will return FALSE
-				451,
-				452
+				250										// and the email address lookup will return FALSE
 			),
 			'sendFrom' => 'user@localhost'					// Send mail from
 		);
